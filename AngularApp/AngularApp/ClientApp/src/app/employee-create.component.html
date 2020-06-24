@@ -1,0 +1,8 @@
+<div>
+    <h2>Add new employee</h2>
+    <employee-form [(employee)]="employee"></employee-form>
+    <div class="form-group">
+        <input type="button" value="Save" (click)="save()" class="btn btn-success" />
+        <a routerLink="/" class="btn btn-warning">Cancel</a>
+    </div>
+</div>

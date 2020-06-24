@@ -1,0 +1,8 @@
+<div *ngIf="loaded">
+    <h2>Edit employee</h2>
+    <employee-form [(employee)]="employee"></employee-form>
+    <div class="form-group">
+        <input type="button" value="Save" (click)="save()" class="btn btn-success" />
+    </div>
+</div>
+<a routerLink="/" class="nav-link">Back to employee list</a>
